@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="./Css/signup.css">
+    <script type="text/javascript" src="./Js/signup.Js"></script>
+</head>
+<body>
+   
+    <form name="signup" action="./index.html" onsubmit="return validateSignUpform()">
+            <div class="Signcontainer">
+            <h3>Sign up</h3>
+            <p>Please fill in your details below to sign up</p>
+        </div>
+        <div class="secondcontainer">
+            <label for="fname">First Name:</label>
+            <input type="text" placeholder="Enter your first name" required name="fname">
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" placeholder="Enter your last name" required name="lname">
+            <br>
+            <label for="mname">Middle Name:</label>
+            <input type="text" placeholder="Enter your middle name" name="mname">
+            <br>
+            <label for="mail">Email Id:</label>
+            <input type="email" placeholder="Enter your email address" required name="mail">
+            <br>
+            <label for="uname">User Name:</label>
+            <input type="text" placeholder="Enter your user name" required name="uname">
+            <br>
+            <label for="psd">Password:</label>
+            <input type="password" placeholder="Enter your password" required name="psd">
+            <br>
+            <label for="cpsd">Confirm Password:</label>
+            <input type="password" placeholder="Re enter your password" required name="cpsd">
+            <br><br>
+            <button type="submit" formaction="./index.html">Sign up</button>
+        </div>
+    </form>
+</body>
+</html>

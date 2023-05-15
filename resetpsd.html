@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Project</title>
+    <link rel="stylesheet" href="./css/psd.css">
+    <script type="text/javascript" src="./Js/resetpswrd.Js"></script>
+</head>
+<body>
+    
+    <form name="resetpswrd" action="./PswrdrestConfirm.html" onsubmit="return validatePswrdForm()">
+
+        <div class="psdcontainer">
+            <h3>Reset Password</h3>
+            <p>Please reset your password by providing below details</p>
+        </div>
+        <div class="inputs">
+            <label for="uname">Username:</label>
+            <input type="text" placeholder="Enter your user name" required name="uname">
+            <br>
+            <label for="psd">New Password:</label>
+            <input type="password" placeholder="Enter your new password" required name="psd">
+            <br>
+            <label for="cpsd">Confirm Password:</label>
+            <input type="password" placeholder="Re enter your password" required name="cpsd">
+            <br><br>
+
+            <button type="submit" formaction="./index.html">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
